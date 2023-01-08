@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('people', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->int('age');
+            $table->integer('age');
             $table->string('address');
             $table->string('gender');
             $table->timestamps();
